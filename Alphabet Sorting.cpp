@@ -27,17 +27,17 @@ void Sorting(int ar[], int size, char alfa[]) {
 int main() {
     char alfa[26] = {'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z'}, inputan[100];
     int size, ar[100];
-    cout << "Masukkan jumlah indeks = ";
+    cout << "Text's length = ";
     cin >> size;
     for (int i = 0; i < size; i++) {
-        cout << "Indeks ke-" << i << " = ";
+        cout << "Index[" << i << "] = ";
         cin >> inputan[i];
         for (int j = 0; j < 26; j++) {
             if (inputan[i] == alfa[j])
                 ar[i] = j;
         }
     }
-    cout << "\nSetelah Sorting = ";
+    cout << "\nResult = ";
     Sorting(ar, size, alfa);
     cout << endl;
 }
