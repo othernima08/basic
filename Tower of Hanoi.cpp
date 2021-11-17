@@ -6,7 +6,7 @@
 #include <stdlib.h>
 using namespace std;
 
-// Program Game Tower of Hanoi using Stack Group 9 Desi Christine O dan Dominikus Vieri L
+// Program Game Tower of Hanoi using Stack Desi Christine Othernima
 
 void awal() {
     cout << "-------------------------------------------------------------------------------------------------\n";
